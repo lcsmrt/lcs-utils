@@ -1,0 +1,21 @@
+{
+  "name": "lcs-utils",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "utils",
+    "typescript",
+    "lcs"
+  ],
+  "author": "Lucas Alves Martins Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
