@@ -16,6 +16,7 @@
   "author": "Lucas Alves Martins Silva",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "^3.5.3",
     "typescript": "^5.8.3"
   }
 }
