@@ -13,3 +13,16 @@ export const formatISODateString = (date: string): string => {
     timeZone: "UTC"
   }).format(dateObj)
 }
+
+/**
+ * Recebe um nome completo e retorna as iniciais do primeiro e do último nome.
+ * @param name Nome completo de uma pessoa
+ * @returns Iniciais do primeiro e do último nome da pessoa
+ */
+export const getFirstAndLastInitials = (name: string): string => {
+  const names = name.split(" ");
+  const firstInitial = names[0].charAt(0).toUpperCase();
+  const lastInitial = names[names.length - 1].charAt(0).toUpperCase();
+
+  return firstInitial + lastInitial;
+}
